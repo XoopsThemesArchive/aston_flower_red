@@ -1,0 +1,465 @@
+/* CSS Document */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #E9E9E9;
+	color: #4E4E4E;
+	background-image: url(images/back.png);
+	background-repeat: repeat-x;
+	font-size: 9pt;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+table {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+td {
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #4E4E4E;
+	font-size: 9pt;
+}
+img {
+	border: 0px;
+}
+a {
+	color: #950000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+/* div center in all browsers */
+#obCenter {
+	text-align: center;
+	padding-bottom: 20px;
+}
+/* contains xoops columns */
+#obMn {
+	background-image: url(images/obmn.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+/* outer table contains page and controls width */
+#obLayout {
+	margin: 0px auto;
+	padding: 0px;
+	text-align: left;
+	background-color: #FFFFFF;
+	width: 745px;
+}
+#obHead {
+	padding: 2px 2px 0px;
+}
+/* row one */
+#obR1 {
+	color: #000000;
+	height: 4px;
+	background-color: #999999;
+}
+/* login area in page header */
+#obHdUtility {
+	color: #FFFFFF;
+	text-align: right;
+	padding: 5px 9px 0px 7px;
+}
+#obHdUtility a {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+#hdUtContainer {
+	background-color: #CC0000;
+	background-image: url(images/utility.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	height: 75px;
+}
+.obUname {
+	font-size: 145%;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+/* credits */
+#cmsFooter {
+	text-align:center;
+	padding: 5px;
+	font-size: 10px;
+	line-height: 150%;
+}
+/* bottom row */
+#obFooter {
+	font-size: 10px;
+	text-align: center;
+	color: #FFFFFF;
+	background-image: url(images/footer.gif);
+	margin: 2px;
+	background-repeat: repeat-x;
+	background-position: top;
+	padding: 13px 13px 3px;
+	background-color: #CC0000;
+}
+/* sets width of spacer image in l and r columns */
+.obSpacer {
+	width: 130px;
+	height: 1px;
+}
+#obBanner {
+	text-align: center;
+	padding: 5px;
+}
+/* far right container in page head not visible unless page stretched */
+#HdStretchContainer {
+	background-image: url(images/h_c3.gif);
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+.obBlock {
+}
+.obBlockC {
+	padding: 2px;
+}
+ul {
+	margin: 2px;
+	padding: 2px;
+	list-style: decimal inside;
+	text-align: left;
+	color: #4E4E4E;
+}
+li {
+	margin-left: 2px;
+	list-style: square inside;
+	color: #4E4E4E;
+}
+
+input.formButton {
+	font-size: 10px;
+}
+.item {
+}
+.itemHead {
+	color: #A40000;
+	padding-left: 18px;
+	padding-top: 0px;
+	padding-right: 4px;
+	padding-bottom: 0px;
+	line-height: 19px;
+	vertical-align: middle;
+	font-size: 10pt;
+	font-weight: bold;
+	background-image: url(images/saq.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.itemInfo {
+	font-size: 90%;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 3px;
+}
+.itemTitle a {
+	color: #A40000;
+}
+.itemPoster, .itemStats, .itemPostDate, .itemPermaLink, .itemAdminLink  {font-size: 90%;}
+.itemBody {
+}
+.itemText {
+	line-height: 1.5em;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+.itemFoot {
+	padding: 3px 3px 13px 5px;
+	font-size: 90%;
+	background-image: url(images/br.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+th {
+	background-color: #CC0000;
+	color: #FFFFFF;
+	vertical-align : middle;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#leftcolumn {
+	width: 145px;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;
+	background-image: url(images/brv.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+	padding: 5px 10px 5px 5px;
+}
+
+#leftcolumn th { vertical-align: middle; }
+#leftcolumn .blockTitle, #rightcolumn .blockTitle {
+	padding: 2px 2px 2px 18px;
+	font-weight: bold;
+	color: #A40000;
+	vertical-align: middle;
+	font-size: 10pt;
+	background-image: url(images/saq.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#leftcolumn .blockContent, #rightcolumn .blockContent {
+	line-height: 120%;
+	line-height: 120%;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	background-image: url(images/br.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+
+#rightcolumn th { vertical-align: middle; }
+#centercolumn {
+	padding: 5px;
+}
+
+
+#centercolumn th { vertical-align: middle; }
+#centerCcolumn { padding: 0px; }
+#centerCcolumn .blockTitle {
+	color: #A40000;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	vertical-align: middle;
+	font-size: 10pt;
+	background-image: url(images/saq.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 18px;
+	padding-top: 2px;
+}
+#centerCcolumn .blockContent {
+	line-height: 120%;
+	background-image: url(images/br.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-top: 2px;
+	padding-bottom: 7px;
+}
+
+#centerLcolumn {
+	width: 50%;
+	padding: 5px;
+}
+#centerRcolumn { padding: 5px; }
+#rightcolumn {
+	width: 145px;
+	padding: 5px 5px 5px 10px;
+	background-image: url(images/brv.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+#centerLcolumn .blockTitle, #centerRcolumn .blockTitle {
+	font-weight: bold;
+	margin-top: 0px;
+	color: #A40000;
+	vertical-align: middle;
+	font-size: 10pt;
+	background-image: url(images/saq.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 18px;
+	padding-right: 3px;
+}
+#centerLcolumn .blockContent, #centerRcolumn .blockContent {
+	padding: 3px 3px 7px;
+	line-height: 120%;
+	margin-bottom: 5px;
+	background-image: url(images/br.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+#content { text-align: left; padding: 0px; }
+
+
+#mainmenu a {
+	display: block;
+	margin: 0;
+	color: #4E4E4E;
+	font-weight: normal;
+	text-transform: lowercase;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+}
+/* avoid transparency for ie */
+#mainmenu a:hover {
+	text-decoration: none;
+	background-image: url(images/aatran.png) !important; background-image: none;
+	color: #CC0000;
+	background-color: transparent !important; background-color: #F2F2F2; 
+}
+#mainmenu a.menuTop {
+	padding-left: 10px;
+}
+#mainmenu a.menuMain {
+	padding-left: 10px;
+}
+#mainmenu a.menuSub {
+	padding-left: 10px;
+}
+
+#usermenu a {
+	display: block;
+	margin: 0;
+	padding: 4px 4px 4px 14px;
+	color: #4E4E4E;
+	text-transform: lowercase;
+}
+#usermenu a:hover {
+	color: #CC0000;
+}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background-color: #fcc;}
+.outer {
+}
+.head {background-color: #F2F2F2; padding: 5px; font-weight: bold;}
+.even {
+	padding: 5px;
+	background-color: #F4F4F4;
+}
+.odd {
+	padding: 5px;
+	background-color: #F9F9F9;
+}
+tr.even td {
+	padding: 5px;
+	background-color: #F4F4F4;
+}
+tr.odd td {padding: 5px;}
+.foot {background-color: #F2F2F2; padding: 5px; font-weight: bold;}
+div.errorMsg {
+	background-color: #FFCCCC;
+	text-align: center;
+	border-top: 1px solid #6096D4;
+	border-left: 1px solid #6096D4;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	font-weight: bold;
+	padding: 10px;
+	color: #FFFFFF;
+}
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode {
+	background: #FFFFFF;
+	border: 1px inset #000080;
+	font-family: Courier New,Courier,monospace;
+	padding: 0px 6px 6px 6px;
+}
+/* let code break to new line */
+div.xoopsCode pre {
+	white-space: normal;
+}
+
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: Courier New,Courier,monospace; padding: 0px 6px 6px 6px;}
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {
+	padding: 2px;
+}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+select, input, button {
+	font-size: 9px;
+}
+
+/* download item */
+.obItemHeadL {
+	background-image: url(images/item_head_l.gif);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 4px;
+}
+.obItemHeadR {
+	background-image: url(images/item_head_r.gif);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 4px;
+}
+.greenLarge {
+	color: #000066;
+	font-weight: bold;
+}
+
+#obSHR {
+	background-image: url(images/obshr.png);
+}
+#obSHL {
+	background-image: url(images/obshl.png);
+}
+
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	border: 1px solid #628907;
+}
+
+#bSHM {
+	background-image: url(images/b_shm.png);
+	background-repeat: repeat-x;
+	height: 28px;
+}
+.obDL {
+	color: #FFFFFF;
+	background-color: #CC0000;
+	vertical-align: middle;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.obDL a {
+	color: #FFFFFF;
+	vertical-align: middle;
+}
+
+.imagepreload {
+	visibility: hidden;
+	position: relative;
+}
+.blockSep {
+	background-image: url(images/brv.gif);
+	width: 1px;
+}
+#hdUtNotice {
+	padding: 5px;
+	background-color: #CC0000;
+	text-align: center;
+	vertical-align: middle;
+}

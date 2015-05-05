@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="Keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="Description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}>-<{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body> 
+<div align="center" id="obCenter"> 
+  <table align="center" cellspacing="0" id="obLayout"> 
+    <tr> 
+      <td rowspan="4" id="obSHL" ><img src="<{$xoops_imageurl}>images/oblts.png" alt="" width="17" /></td> 
+      <td id="obR1" ></td> 
+      <td rowspan="4" id="obSHR" ><img src="<{$xoops_imageurl}>images/obrts.png" alt="" width="17" /></td> 
+    </tr> 
+    <tr> 
+      <td id="obHead" ><table cellspacing="0"> 
+          <tr> 
+            <td><a href="<{$xoops_url}>"><img src="<{$xoops_imageurl}>/images/logo.jpg" alt="<{$xoops_sitename}>" border="0" /></a></td> 
+            <td width="386"><table cellspacing="0"> 
+                <tr> 
+                  <td id="hdUtNotice" ></td> 
+                  <td id="hdUtContainer" ><div id="obHdUtility"><{if $xoops_isuser}>&nbsp;<a href="<{$xoops_url}>/user.php?op=logout">LOGOUT</a>&nbsp;&nbsp;~&nbsp;&nbsp;<a href="<{$xoops_url}>/user.php">ACCOUNT</a><{else}>&nbsp;<a href="<{$xoops_url}>/user.php">LOGIN</a>&nbsp;&nbsp;~&nbsp;&nbsp;<a href="<{$xoops_url}>/register.php">REGISTER</a><{/if}><br /> 
+                      <span class="obUname" ><{$xoops_uname}></span></div></td> 
+                </tr> 
+                <tr> 
+                  <td colspan="2"><table cellspacing="0"> 
+                      <tr> 
+                        <td><img src="<{$xoops_imageurl}>images/h_c2_r2.gif" alt="" /></td> 
+                      </tr> 
+                    </table></td> 
+                </tr> 
+              </table></td> 
+            <td width="100%" id="HdStretchContainer" ></td> 
+          </tr> 
+        </table></td> 
+    </tr> 
+    <tr> 
+      <td id="obMn" ><table id="mainContainer" cellspacing="6"> 
+          <tr> 
+            <td id="leftcolumn" > <!-- Start left blocks loop --> 
+<{foreach item=block from=$xoops_lblocks}> <{include file="aston_flower_red/block.html"}> <{/foreach}> <br /> 
+              <img src="<{$xoops_imageurl}>/images/1px.gif" alt="" class="obSpacer" /> 
+              <!-- End left blocks loop --></td> 
+            <td id="centercolumn" ><{if $xoops_showcblock == 1}> 
+              <div id="centerCcolumn" > 
+                <!-- Start center-center blocks loop --> 
+<{foreach item=block from=$xoops_ccblocks}> <{include file="aston_flower_red/block.html"}> <{/foreach}> 
+                <table cellspacing="0"> 
+                  <tr> 
+                    <td id="centerLcolumn"> <!-- Start center-left blocks loop --> 
+<{foreach item=block from=$xoops_clblocks}> <{include file="aston_flower_red/block.html"}> <{/foreach}> 
+                      <!-- End center-left blocks loop --> </td> 
+                    <td id="centerRcolumn"> <!-- Start center-right blocks loop --> 
+<{foreach item=block from=$xoops_crblocks}> <{include file="aston_flower_red/block.html"}> <{/foreach}> 
+                      <!-- End center-right blocks loop --> </td> 
+                  </tr> 
+                </table> 
+                <!-- End center-center blocks loop --> 
+              </div> 
+<{/if}> 
+              <div id="content"> <{$xoops_contents}> </div> 
+              <br /> 
+              <br /> 
+              <br /> 
+              <table cellspacing="0"> 
+                <tr> 
+                  <td id="cmsFooter" >Theme by <a href="http://astonthemes.com" target="_blank">astonthemes.com</a><br /> 
+<{$xoops_footer}></td> 
+                </tr> 
+              </table></td> 
+<{if $xoops_showrblock == 1}> 
+            <td id="rightcolumn" ><{foreach item=block from=$xoops_rblocks}> <{include file="aston_flower_red/block.html"}> <{/foreach}><br /> 
+            <img src="<{$xoops_imageurl}>/images/1px.gif" class="obSpacer" alt="" /></td> 
+<{/if}> </tr> 
+        </table></td> 
+    </tr> 
+    <tr> 
+      <td><div id="obFooter"><{$xoops_banner}></div></td> 
+    </tr> 
+    <tr> 
+      <td colspan="3"><table cellspacing="0"> 
+          <tr> 
+            <td width="31"><img src="<{$xoops_imageurl}>images/b_shl.png" alt"" width="31" height="28" /></td> 
+            <td id="bSHM" >&nbsp;</td> 
+            <td width="31"><img src="<{$xoops_imageurl}>images/b_shr.png" alt="" width="31" height="28" /></td> 
+          </tr> 
+        </table></td> 
+    </tr> 
+  </table> 
+</div> 
+</body>
+</html>
